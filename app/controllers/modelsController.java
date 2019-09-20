@@ -23,6 +23,6 @@ public class modelsController extends Controller {
                 "username", "password");
         User user=form.get();
         System.out.println(user);
-        return ok();
+        return ok("好的");
     }
 }
